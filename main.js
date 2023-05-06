@@ -33,8 +33,8 @@ const articleData = [
 
 // Update normal price tag for Lenova Laptop
 function Lenovaprice(){
-    document.querySelector(".lenova-price").textContent = `€ ${articleData[0].Price}`; 
- }
+   document.querySelector(".lenova-price").textContent = `€ ${articleData[0].Price}`; 
+}
  // Update normal price tag for HP
  function hpPrice(){
     document.getElementById("addTo-cart").textContent = `€ ${articleData[0].Price + articleData[0].ExtPrice}`;
